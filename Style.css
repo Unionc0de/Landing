@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    background: rgb(131, 149, 206);
+    color: rgb(255, 255, 255);
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10% 50px 10%;
+    /* background: rgb(51, 38, 167); */
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0 40px 0 0;
+    color: rgb(114, 36, 160);
+}
+
+.logo {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(51, 38, 167);
+}
+
+.promo {
+    padding: 90px 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(45deg, rgb(51, 38, 167), rgb(114, 36, 160));
+}
